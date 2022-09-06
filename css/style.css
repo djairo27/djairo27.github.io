@@ -96,3 +96,7 @@ background-color: rgb(103, 105, 140);
     padding: 0;
     width: 20%;
   }
+
+  .active {
+    background-color: rgb(103, 105, 140);
+  }
