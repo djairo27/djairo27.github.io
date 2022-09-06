@@ -1,3 +1,6 @@
+html{ 
+  overflow-y: scroll; 
+}
 
 main{
     text-align: center;
@@ -30,7 +33,7 @@ aside{
 }
 
 .djairo{
-    width: 25%;
+    width: 20%;
     border: 5px solid #555;
 }
 
