@@ -80,7 +80,7 @@ ul {
   }
 
   li a:hover{
-background-color: rgb(103, 105, 140);
+    background-color: rgb(103, 105, 140);
   }
 
   h1{
@@ -100,3 +100,27 @@ background-color: rgb(103, 105, 140);
   .active {
     background-color: rgb(103, 105, 140);
   }
+
+  .asideli{
+   float: none;
+  }
+
+  .hobbies{
+    background-color: none;
+    float: none;
+    text-align: center;
+  }
+  
+  .hobbies li{
+    list-style-type: circle;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: none;
+    background-color: rgb(103, 105, 140);
+  }
+
+.hobbies{
+  background-color: rgb(103, 105, 140);
+  list-style-type: circle;
+}
