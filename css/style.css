@@ -119,3 +119,17 @@ header nav li a:hover, aside li a:hover{
   text-align: left;
   margin-left: 35%;
 }
+
+.blogpost a{
+ color: rgb(0, 0, 116);
+}
+
+.faq li{
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.link{
+  color: rgb(0, 0, 116);
+}
