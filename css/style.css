@@ -29,7 +29,7 @@ aside{
 
 .keverfoto{
     width: 25%;
-    border: 5px solid #555;
+    border: 5px solid #555; 
 }
 
 .djairo{
@@ -111,16 +111,11 @@ header nav li a:hover, aside li a:hover{
     text-align: center;
   }
   
- /* .hobbies li{
-    list-style-type: circle;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    float: none;
-    background-color: rgb(103, 105, 140);
-  }
-
 .hobbies{
-  background-color: rgb(103, 105, 140);
-  list-style-type: circle;
-} */
+  text-align: center;
+  list-style-position: inside;
+} 
+.hobbies li{
+  text-align: left;
+  margin-left: 35%;
+}
