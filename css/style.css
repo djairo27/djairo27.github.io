@@ -46,7 +46,7 @@ aside{
     margin-right: 25%;
 }
 
-ul {
+header nav ul, aside ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -67,11 +67,11 @@ ul {
     color: black;
   }
   
-  li{
+ header li{
     float: left;
   }
 
-  li a {
+ header nav li a, aside li a {
     display: block;
     color: black;
     text-align: center;
@@ -79,7 +79,7 @@ ul {
     text-decoration: none;
   }
 
-  li a:hover{
+header nav li a:hover, aside li a:hover{
     background-color: rgb(103, 105, 140);
   }
 
@@ -97,7 +97,7 @@ ul {
     width: 20%;
   }
 
-  .active {
+  header nav .active {
     background-color: rgb(103, 105, 140);
   }
 
@@ -111,7 +111,7 @@ ul {
     text-align: center;
   }
   
-  .hobbies li{
+ /* .hobbies li{
     list-style-type: circle;
     margin: 0;
     padding: 0;
@@ -123,4 +123,4 @@ ul {
 .hobbies{
   background-color: rgb(103, 105, 140);
   list-style-type: circle;
-}
+} */
