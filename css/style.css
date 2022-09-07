@@ -63,15 +63,15 @@ header nav ul, aside ul {
     text-decoration: none; 
   } */
 
-  a{
+a{
     color: black;
   }
   
- header li{
+header li{
     float: left;
   }
 
- header nav li a, aside li a {
+header nav li a, aside li a {
     display: block;
     color: black;
     text-align: center;
@@ -83,12 +83,12 @@ header nav li a:hover, aside li a:hover{
     background-color: rgb(103, 105, 140);
   }
 
-  h1{
+h1{
     font-size: 30px;
     background-color:rgb(72, 72, 85) ;
   }
 
-  .logo{
+.logo{
     position: absolute;
     left: 0;
     top: 25px;
@@ -97,15 +97,15 @@ header nav li a:hover, aside li a:hover{
     width: 20%;
   }
 
-  header nav .active {
+header nav .active {
     background-color: rgb(103, 105, 140);
   }
 
-  .asideli{
+.asideli{
    float: none;
   }
 
-  .hobbies{
+.hobbies{
     background-color: none;
     float: none;
     text-align: center;
@@ -132,4 +132,18 @@ header nav li a:hover, aside li a:hover{
 
 .link{
   color: rgb(0, 0, 116);
+}
+
+.beeldscherm{
+  width: 25%;
+  border: 5px solid #555;
+  position: relative;
+  left: 90px;
+}
+
+.hzlogo{
+  width: 15%;
+  position: relative;
+  bottom: 250px;
+  left: 290px;
 }
