@@ -18,10 +18,12 @@ article{
     width: 80%;
     height: 60%;
 }
+
 header{
     text-align: center;
     margin-left: 20%;
 }
+
 aside{
     float:left;
     width: 20%;
@@ -53,15 +55,6 @@ header nav ul, aside ul {
     overflow: hidden;
     background-color: #555
   }
-
-  /*.navli{
-    border: 2px;
-    border-style: solid;
-    font-size: 20px; 
-    display: inline;
-    width: 19%;
-    text-decoration: none; 
-  } */
 
 a{
     color: black;
@@ -146,4 +139,16 @@ header nav .active {
   position: relative;
   bottom: 250px;
   left: 290px;
+}
+
+.studiekeuze{
+  width: 33%;
+  border: 5px solid #555;
+  position: relative;
+}
+
+.swot-analyse{
+  width: 70%;
+  border: 5px solid #555;
+  position: relative;
 }
