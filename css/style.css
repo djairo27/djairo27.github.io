@@ -178,7 +178,8 @@ table th{
 
 .nirvana{
   width: 3%;
+  float: right;
   position: relative;
-  bottom: 26px;
-  left: 170px;
+  bottom: 30px;
+  right: 400px;
 }
