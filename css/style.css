@@ -22,6 +22,7 @@ article{
 header{
     text-align: center;
     margin-left: 20%;
+    background-color: rgb(93, 92, 96) ;
 }
 
 aside{
@@ -31,12 +32,12 @@ aside{
 
 .keverfoto{
     width: 25%;
-    border: 5px solid #555; 
+    border: 5px solid rgb(93, 92, 96); 
 }
 
 .djairo{
     width: 20%;
-    border: 5px solid #555;
+    border: 5px solid rgb(93, 92, 96);
 }
 
 .asidemenu{
@@ -53,7 +54,7 @@ header nav ul, aside ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #555
+    background-color: rgb(93, 92, 96)
   }
 
 a{
@@ -73,12 +74,14 @@ header nav li a, aside li a {
   }
 
 header nav li a:hover, aside li a:hover{
-    background-color: rgb(103, 105, 140);
+    background-color: rgb(85, 122, 149);
   }
 
 h1{
     font-size: 30px;
-    background-color:rgb(93, 92, 96) ;
+    background-color:rgb(93, 92, 96);
+    position: relative;
+    bottom: 22px;
   }
 
 .logo{
@@ -91,7 +94,7 @@ h1{
   }
 
 header nav .active {
-    background-color: rgb(103, 105, 140);
+    background-color: rgb(85, 122, 149);
   }
 
 .asideli{
@@ -129,7 +132,7 @@ header nav .active {
 
 .beeldscherm{
   width: 25%;
-  border: 5px solid #555;
+  border: 5px solid rgb(93, 92, 96);
   position: relative;
   left: 90px;
 }
@@ -143,19 +146,19 @@ header nav .active {
 
 .studiekeuze{
   width: 33%;
-  border: 5px solid #555;
+  border: 5px solid rgb(93, 92, 96);
   position: relative;
 }
 
 .swot-analyse{
   width: 70%;
-  border: 5px solid #555;
+  border: 5px solid rgb(93, 92, 96);
   position: relative;
 }
 
 .javascript{
   width: 50%;
-  border: 5px solid #555;
+  border: 5px solid rgb(93, 92, 96);
   position: relative;
 }
 
@@ -170,5 +173,5 @@ table, th, td {
 }
 
 table th{
-  background-color: rgb(72, 72, 85);
+  background-color: rgb(93, 92, 96);
 }
