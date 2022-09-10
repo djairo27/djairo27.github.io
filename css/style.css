@@ -175,3 +175,10 @@ table, th, td {
 table th{
   background-color: rgb(93, 92, 96);
 }
+
+.nirvana{
+  width: 3%;
+  position: relative;
+  bottom: 26px;
+  left: 170px;
+}
