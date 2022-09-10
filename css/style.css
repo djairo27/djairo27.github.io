@@ -158,3 +158,17 @@ header nav .active {
   border: 5px solid #555;
   position: relative;
 }
+
+table{
+ margin-left: auto;
+ margin-right: auto;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+table th{
+  background-color: rgb(72, 72, 85);
+}
