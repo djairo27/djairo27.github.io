@@ -260,3 +260,12 @@ table,td{
 .herkansenledger{
   background-color: #CC5500;
 }
+
+.ledger{
+  position: relative;
+  bottom: 37px;
+}
+
+.ledger td{
+  width: 196px;
+}
