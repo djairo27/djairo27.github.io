@@ -126,7 +126,7 @@ header nav .active {
 .faq li {
   font-size: 20px;
   font-style: italic;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
 .link {
@@ -188,15 +188,15 @@ table th {
   vertical-align: text-top;
 }
 
-table .nbsa{
+table .nbsa {
   min-width: 300px;
 }
 
-h2{
+h2 {
   margin-top: auto;
 }
 
-footer{
+footer {
   text-align: center;
   margin-left: 20%;
   background-color: rgb(93, 92, 96);
@@ -205,58 +205,59 @@ footer{
   bottom: 16px
 }
 
-.footerp{
+.footerp {
   color: white;
   margin: 10%;
   display: inline;
   position: relative;
   top: 30px;
 }
- 
-.footerlink{
+
+.footerlink {
   color: white;
 }
 
-.geel{
+.geel {
   background-color: yellow;
 }
 
-.groen{
+.groen {
   background-color: yellowgreen;
 }
 
-table,td{
+table,
+td {
   background-color: whitesmoke;
 }
 
-.bezig{
+.bezig {
   background-color: orange;
 }
 
-.geslaagd{
+.geslaagd {
   background-color: green;
 }
 
-.gefaald{
+.gefaald {
   background-color: red;
 }
 
-.herkansen{
+.herkansen {
   background-color: #CC5500;
 }
 
-.bezigledger{
+.bezigledger {
   background-color: orange;
 }
 
-.geslaagdledger{
+.geslaagdledger {
   background-color: green;
 }
 
-.gefaaldledger{
+.gefaaldledger {
   background-color: red;
 }
 
-.herkansenledger{
+.herkansenledger {
   background-color: #CC5500;
 }
