@@ -30,11 +30,6 @@ aside {
   width: 20%;
 }
 
-.keverfoto {
-  width: 25%;
-  border: 5px solid rgb(93, 92, 96);
-}
-
 .djairo {
   width: 20%;
   border: 5px solid rgb(93, 92, 96);
@@ -59,9 +54,6 @@ aside ul {
   background-color: rgb(93, 92, 96)
 }
 
-a {
-  color: black;
-}
 
 header li {
   float: left;
@@ -119,10 +111,6 @@ header nav .active {
 .hobbies li {
   text-align: left;
   margin-left: 35%;
-}
-
-.blogpost a {
-  color: rgb(0, 0, 116);
 }
 
 .faq li {
@@ -208,7 +196,7 @@ footer {
 }
 
 .footerp {
-  color: white;
+  color: whitesmoke;
   margin: 10%;
   display: inline;
   position: relative;
@@ -216,7 +204,7 @@ footer {
 }
 
 .footerlink {
-  color: white;
+  color: whitesmoke;
 }
 
 .geel {
@@ -290,4 +278,23 @@ td {
 .portofrotterdamlogo {
   width: 28%;
   border: 5px solid rgb(93, 92, 96);
+}
+
+.blogpost a {
+  color: rgb(0, 0, 116);
+}
+
+.suusfoto {
+  width: 60%;
+  border: 5px solid rgb(93, 92, 96);
+  vertical-align: middle;
+}
+
+.keverfoto {
+  width: 60%;
+  border: 5px solid rgb(93, 92, 96);
+}
+
+.row {
+  display: flex;
 }
