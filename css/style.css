@@ -272,3 +272,7 @@ td {
 .ledger td {
   width: 196px;
 }
+
+.faq {
+  list-style: none;
+}
