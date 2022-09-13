@@ -285,16 +285,24 @@ td {
 }
 
 .suusfoto {
-  width: 60%;
+  width: 100%;
   border: 5px solid rgb(93, 92, 96);
-  vertical-align: middle;
+}
+
+.joepfoto {
+  width: 100%;
+  border: 5px solid rgb(93, 92, 96);
 }
 
 .keverfoto {
-  width: 60%;
+  width: 100%;
   border: 5px solid rgb(93, 92, 96);
 }
 
 .row {
   display: flex;
+}
+
+.column{
+  flex: 33.33%;
 }
