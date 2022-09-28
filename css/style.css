@@ -302,3 +302,22 @@ td {
 .row {
   display: flex;
 }
+
+.buttonp {
+  float: left;
+  margin: 0;
+  background-color: rgb(93, 92, 96);
+}
+
+.button {
+  text-decoration: none;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: rgb(85, 122, 149);
+}
