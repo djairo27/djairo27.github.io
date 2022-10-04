@@ -1,5 +1,12 @@
+/*      HTML      */
+
 html {
   overflow-y: scroll;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../img/backgroundimage.jpg");
 }
 
 main {
@@ -12,11 +19,6 @@ main {
   min-height: 1050px;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-image: url("../img/backgroundimage.jpg");
-}
-
 header {
   color: whitesmoke;
   text-align: center;
@@ -25,25 +27,110 @@ header {
   min-height: 130px;
 }
 
-aside {
-  float: left;
-  width: 20%;
-}
-
-.djairo {
-  width: 20%;
-  border: 5px solid rgb(93, 92, 96);
-}
-
-.asidemenu {
-  color: whitesmoke;
+footer {
   text-align: center;
+  margin-left: 20%;
+  background-color: rgb(93, 92, 96);
+  min-height: 80px;
+  position: relative;
+  bottom: 16px
 }
+
+h1 {
+  font-size: 30px;
+  background-color: rgb(93, 92, 96);
+  position: relative;
+  bottom: 10px;
+}
+
+h2 {
+  margin-top: auto;
+}
+
+/*      Text styling class based      */
 
 .article {
   margin-left: 25%;
   margin-right: 25%;
 }
+
+.hobbies {
+  background-color: none;
+  float: none;
+  text-align: center;
+  list-style-position: inside;
+}
+
+.hobbies li {
+  text-align: left;
+  margin-left: 35%;
+}
+
+.link {
+  color: rgb(0, 0, 116);
+}
+
+.blogpost a {
+  color: rgb(0, 0, 116);
+}
+
+.footerp {
+  color: whitesmoke;
+  margin: 10%;
+  display: inline;
+  position: relative;
+  top: 30px;
+}
+
+.footerlink {
+  color: whitesmoke;
+}
+
+.ledger {
+  position: relative;
+  bottom: 37px;
+}
+
+.ledger td {
+  width: 196px;
+}
+
+.faq li {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.faq {
+  list-style: none;
+}
+
+.row {
+  display: flex;
+}
+
+/*      Back button      */
+
+.button {
+  text-decoration: none;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.buttonp {
+  float: left;
+  margin: 0;
+  background-color: rgb(93, 92, 96);
+}
+
+.button:hover {
+  background-color: rgb(85, 122, 149);
+}
+
+/*      Navbar/Asidemenu      */
 
 header nav ul,
 aside ul {
@@ -53,7 +140,6 @@ aside ul {
   overflow: hidden;
   background-color: rgb(93, 92, 96)
 }
-
 
 header li {
   float: left;
@@ -73,11 +159,29 @@ aside li a:hover {
   background-color: rgb(85, 122, 149);
 }
 
-h1 {
-  font-size: 30px;
-  background-color: rgb(93, 92, 96);
-  position: relative;
-  bottom: 10px;
+header nav .active {
+  background-color: rgb(85, 122, 149);
+}
+
+.asidemenu {
+  color: whitesmoke;
+  text-align: center;
+}
+
+aside {
+  float: left;
+  width: 20%;
+}
+
+.asideli {
+  float: none;
+}
+
+/*      Foto's      */
+
+.djairo {
+  width: 30%;
+  border: 5px solid rgb(93, 92, 96);
 }
 
 .logo {
@@ -87,40 +191,6 @@ h1 {
   margin: 0;
   padding: 0;
   width: 20%;
-}
-
-header nav .active {
-  background-color: rgb(85, 122, 149);
-}
-
-.asideli {
-  float: none;
-}
-
-.hobbies {
-  background-color: none;
-  float: none;
-  text-align: center;
-}
-
-.hobbies {
-  text-align: center;
-  list-style-position: inside;
-}
-
-.hobbies li {
-  text-align: left;
-  margin-left: 35%;
-}
-
-.faq li {
-  font-size: 20px;
-  font-style: italic;
-  font-weight: bold;
-}
-
-.link {
-  color: rgb(0, 0, 116);
 }
 
 .beeldscherm {
@@ -155,6 +225,43 @@ header nav .active {
   position: relative;
 }
 
+.deltafiberlogo {
+  width: 25%;
+  border: 5px solid rgb(93, 92, 96);
+}
+
+.pareelogo {
+  width: 20%;
+  border: 5px solid rgb(93, 92, 96);
+}
+
+.portofrotterdamlogo {
+  width: 28%;
+  border: 5px solid rgb(93, 92, 96);
+}
+
+.suusfoto {
+  width: 100%;
+  border: 5px solid rgb(93, 92, 96);
+}
+
+.joepfoto {
+  width: 100%;
+  border: 5px solid rgb(93, 92, 96);
+}
+
+.keverfoto {
+  width: 100%;
+  border: 5px solid rgb(93, 92, 96);
+}
+
+.nirvana {
+  width: 10%;
+  vertical-align: text-top;
+}
+
+/*      Table     */
+
 table {
   margin-left: auto;
   margin-right: auto;
@@ -173,39 +280,16 @@ table th {
   min-width: 100px;
 }
 
-.nirvana {
-  width: 2%;
-  vertical-align: text-top;
-}
-
 table .nbsa {
   min-width: 300px;
 }
 
-h2 {
-  margin-top: auto;
+table,
+td {
+  background-color: whitesmoke;
 }
 
-footer {
-  text-align: center;
-  margin-left: 20%;
-  background-color: rgb(93, 92, 96);
-  min-height: 80px;
-  position: relative;
-  bottom: 16px
-}
-
-.footerp {
-  color: whitesmoke;
-  margin: 10%;
-  display: inline;
-  position: relative;
-  top: 30px;
-}
-
-.footerlink {
-  color: whitesmoke;
-}
+/*      Table colours     */
 
 .geel {
   background-color: yellow;
@@ -213,11 +297,6 @@ footer {
 
 .groen {
   background-color: yellowgreen;
-}
-
-table,
-td {
-  background-color: whitesmoke;
 }
 
 .bezig {
@@ -252,72 +331,24 @@ td {
   background-color: #CC5500;
 }
 
-.ledger {
-  position: relative;
-  bottom: 37px;
+/*      Grid      */
+
+.gridprofiel {
+  grid-template-columns: auto auto auto;
+  display: grid;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.ledger td {
-  width: 196px;
+.gridprofiel2 {
+  grid-template-columns: auto auto auto;
+  display: grid;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.faq {
-  list-style: none;
-}
-
-.deltafiberlogo {
-  width: 25%;
-  border: 5px solid rgb(93, 92, 96);
-}
-
-.pareelogo {
-  width: 20%;
-  border: 5px solid rgb(93, 92, 96);
-}
-
-.portofrotterdamlogo {
-  width: 28%;
-  border: 5px solid rgb(93, 92, 96);
-}
-
-.blogpost a {
-  color: rgb(0, 0, 116);
-}
-
-.suusfoto {
-  width: 100%;
-  border: 5px solid rgb(93, 92, 96);
-}
-
-.joepfoto {
-  width: 100%;
-  border: 5px solid rgb(93, 92, 96);
-}
-
-.keverfoto {
-  width: 100%;
-  border: 5px solid rgb(93, 92, 96);
-}
-
-.row {
-  display: flex;
-}
-
-.buttonp {
-  float: left;
-  margin: 0;
-  background-color: rgb(93, 92, 96);
-}
-
-.button {
-  text-decoration: none;
-  display: block;
-  color: whitesmoke;
-  text-align: center;
-  margin: 0;
-  padding: 10px;
-}
-
-.button:hover {
-  background-color: rgb(85, 122, 149);
+.card1 {
+  padding-top: 10px;
 }
