@@ -152,21 +152,8 @@ h2 {
 }
 
 /*      Navbar/Asidemenu      */
-
-
-#navbar {
-  overflow: hidden;
-  background-color: rgb(93, 92, 96);;
-}
-
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+header nav .active {
+  background-color: rgb(85, 122, 149);
 }
 
 .sticky {
@@ -183,14 +170,18 @@ aside ul {
   overflow: hidden;
   background-color: rgb(93, 92, 96);
 }
+/*BUG ZIT HIER IN*/
+header nav li a,
+aside li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
 
-header nav li a{
-  display: block;
-  color: whitesmoke;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  float: left;
+header nav li {
+	float: left;
 }
 
 .sticky {
@@ -212,9 +203,6 @@ aside li a:hover {
   background-color: rgb(85, 122, 149);
 }
 
-header nav .active {
-  background-color: rgb(85, 122, 149);
-}
 
 .asidemenu {
   color: whitesmoke;
