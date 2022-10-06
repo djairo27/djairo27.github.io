@@ -114,19 +114,40 @@ h2 {
 .button {
   text-decoration: none;
   display: block;
-  color: whitesmoke;
+  color: whitesmoke !important;
   text-align: center;
   margin: 0;
   padding: 10px;
+  background-color: rgb(93, 92, 96);
+}
+
+.buttonblog {
+  text-decoration: none;
+  display: block;
+  color: whitesmoke !important;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(93, 92, 96);
+  background-size: 10px !important;
+  margin: 0;
+  padding: 7px;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border: 3px solid black;
 }
 
 .buttonp {
   float: left;
   margin: 0;
-  background-color: rgb(93, 92, 96);
 }
 
 .button:hover {
+  background-color: rgb(85, 122, 149);
+}
+
+.buttonblog:hover {
   background-color: rgb(85, 122, 149);
 }
 
@@ -138,7 +159,7 @@ aside ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(93, 92, 96)
+  background-color: rgb(93, 92, 96);  
 }
 
 header li {
@@ -347,6 +368,26 @@ td {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.gridprofiel3 {
+  grid-template-columns: auto auto auto;
+  display: grid;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gridprofiel4 {
+  grid-template-columns: auto auto auto;
+  display: grid;
+  max-width: 1500px;
+  margin-left: 22%;
+  margin-right: auto;
+}
+
+.gridprofiel5 {
+  margin-right: 2%;
 }
 
 .card1 {
