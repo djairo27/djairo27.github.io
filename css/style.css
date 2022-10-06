@@ -40,7 +40,7 @@ h1 {
   font-size: 30px;
   background-color: rgb(93, 92, 96);
   position: relative;
-  bottom: 10px;
+  top: 10px;
 }
 
 h2 {
@@ -153,21 +153,53 @@ h2 {
 
 /*      Navbar/Asidemenu      */
 
+
+#navbar {
+  overflow: hidden;
+  background-color: rgb(93, 92, 96);;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 header nav ul,
 aside ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(93, 92, 96);  
+  background-color: rgb(93, 92, 96);
 }
 
-header li {
+header nav li a{
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
   float: left;
 }
 
-header nav li a,
-aside li a {
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+aside li a{
   display: block;
   color: whitesmoke;
   text-align: center;
@@ -279,6 +311,10 @@ aside {
 .nirvana {
   width: 10%;
   vertical-align: text-top;
+}
+
+.eigenlogo{
+  float: right;
 }
 
 /*      Table     */
