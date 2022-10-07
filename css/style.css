@@ -169,8 +169,9 @@ aside ul {
   padding: 0;
   overflow: hidden;
   background-color: rgb(93, 92, 96);
+  z-index: 1;
 }
-/*BUG ZIT HIER IN*/
+
 header nav li a,
 aside li a {
 	display: block;
