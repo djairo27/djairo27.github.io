@@ -152,6 +152,7 @@ h2 {
 }
 
 /*      Navbar/Asidemenu      */
+
 header nav .active {
   background-color: rgb(85, 122, 149);
 }
@@ -159,7 +160,7 @@ header nav .active {
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 79.54%;
 }
 
 header nav ul,
@@ -183,12 +184,6 @@ aside li a {
 
 header nav li {
 	float: left;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
 aside li a{
@@ -220,6 +215,15 @@ aside {
 }
 
 /*      Foto's      */
+
+.persoonlijklogo{
+  width: 32px;
+  z-index: 2;
+}
+
+.liimage{
+  float: right;
+}
 
 .djairo {
   width: 30%;

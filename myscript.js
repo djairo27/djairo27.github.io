@@ -2,6 +2,7 @@ window.onscroll = function () { myFunction() };
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
+var foto = document.getElementById("plogo");
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
