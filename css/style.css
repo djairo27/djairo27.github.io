@@ -74,6 +74,26 @@ h2 {
   color: rgb(0, 0, 116);
 }
 
+.accordion {
+  background-color: rgb(93, 92, 96);
+  color: whitesmoke;
+  cursor: pointer;
+  padding: 18px;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  border: 3px solid black;  
+}
+
+.active, .accordion:hover {
+  background-color: rgb(85, 122, 149);; 
+}
+
+.panel {
+  display: none;
+}
+
 .footerp {
   color: whitesmoke;
   margin: 10%;
@@ -219,6 +239,7 @@ aside {
 .persoonlijklogo{
   width: 32px;
   z-index: 2;
+  padding-right: 15px;
 }
 
 .liimage{
